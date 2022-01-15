@@ -258,10 +258,10 @@ public class Update_Buku extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        jTextField3.setText("");
-        jTextField4.setText("");
-        jTextField1.setText("");
         jTextField2.setText("");
+        jTextField3.setText("");
+        jTextField1.setText("");
+        jTextField4.setText("");
         jComboBox1.setSelectedIndex(0);
     }//GEN-LAST:event_jButton2ActionPerformed
 
