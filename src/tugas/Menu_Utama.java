@@ -164,11 +164,21 @@ public class Menu_Utama extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        
+        Update_Buku ubk = new Update_Buku();
+        ubk.setVisible(true);
+        ubk.pack();
+        ubk.setLocationRelativeTo(null);
+        ubk.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        
+        DELETE_BOOK dtk = new DELETE_BOOK();
+        dtk.setVisible(true);
+        dtk.pack();
+        dtk.setLocationRelativeTo(null);
+        dtk.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.dispose();
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
